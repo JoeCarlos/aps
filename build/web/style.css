@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/11/2019, 15:18:52
+    Author     : joseo
+*/
+
+
+body {
+  background-color: lightblue;
+}
+
+h2{
+    color: red;
+}
+
+a {
+        position: relative;
+        
+        color: green;
+	float: next;
+	font-size:12px;
+        margin-left: 1000px;
+        
+}
+
+input[type=submit] {
+  border: 2px solid green;
+}
+input[type=text]{
+    border: 2px solid red;
+}
+input[type=password]{
+    border: 2px solid red;
+}
+
+img {
+    left: 500px
+}
+h2{
+    
+}
