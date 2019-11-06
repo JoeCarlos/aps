@@ -11,20 +11,24 @@ and open the template in the editor.
 
 body {
   background-color: lightblue;
+  min-height: 100%;
 }
 
 h2{
     color: red;
 }
 
-a {
-        position: relative;
-        
+.link {
+        position: relative;     
         color: green;
 	float: next;
 	font-size:12px;
         margin-left: 1000px;
         
+}
+
+a{
+    color:green;
 }
 
 input[type=submit] {
