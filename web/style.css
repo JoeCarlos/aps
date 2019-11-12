@@ -11,7 +11,8 @@ and open the template in the editor.
 
 body{
     background-image:url("imagens/fundo_html.jpg");
-     background-size: 34%
+     background-size: 34%;
+     overflow: hidden;
 }
 .formulario{
                 margin: auto;
@@ -40,6 +41,7 @@ input[type=password]{
     position:  absolute;
     top: 0;
     left: 1100px;
+    padding: 0px;
 }
 #bb{
     transform: rotateY(180deg);
@@ -57,4 +59,29 @@ h2{
 
 p{
     text-align: center;
+}
+
+.sugestao{
+    position: absolute; 
+    top:80%;
+    left: 32%; 
+    color: black
+}
+
+.link{
+    position: absolute;
+    top:88%;
+    left: 80%; 
+    color: black;
+}
+a{
+    color: black;
+}
+
+.videos{
+
+    position: absolute;
+    color: white;
+    padding: 10px;
+   border: 10px;
 }
