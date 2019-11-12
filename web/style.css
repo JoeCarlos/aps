@@ -9,41 +9,52 @@ and open the template in the editor.
 */
 
 
-body {
-  background-color: lightblue;
-  min-height: 100%;
+body{
+    background-image:url("imagens/fundo_html.jpg");
+     background-size: 34%
+}
+.formulario{
+                margin: auto;
+                width:180px;
+                background-color:white ;
+                padding:30px;
+               
+                
 }
 
-h2{
-    color: red;
-}
 
-.link {
-        position: relative;     
-        color: green;
-	float: next;
-	font-size:12px;
-        margin-left: 1000px;
-        
-}
-
-a{
-    color:green;
-}
 
 input[type=submit] {
   border: 2px solid green;
+  
 }
 input[type=text]{
     border: 2px solid red;
 }
 input[type=password]{
     border: 2px solid red;
+    
 }
 
-img {
-    left: 500px
+.imgLogo {
+    position:  absolute;
+    top: 0;
+    left: 1100px;
 }
+#bb{
+    transform: rotateY(180deg);
+}
+
+h1{
+  text-align: center; 
+  color: black;
+}
+
 h2{
-    
+    color: red;
+    text-align: center; 
+}
+
+p{
+    text-align: center;
 }
